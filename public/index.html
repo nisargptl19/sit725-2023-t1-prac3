@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SIT 725 Prac 3</title>
+  <meta name="description" content="basic template for SIT 725 Prac 3">
+  <meta name="author" content="SitePoint">
+
+  <meta property="og:title" content="SIT 725 Prac 3">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="basic template for SIT 725 Prac 3">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Custom Style Sheet-->
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper navbar-size">
+            <a href="#" class="brand-logo"><b>MARVELMANIA</b></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a target="_blank" href="https://github.com/nisargptl19" class="tooltipped" data-position="bottom" data-tooltip="Nisarg's Github"><i class="material-icons">github</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-body">
+        <div class="container">
+            <div class="row my5">
+                <div class="col s12 center-align">
+                    <hr>
+                        <h4 class="heading center-align">This is Practical 3 of SIT725</h4>
+                        <p class="m0 f16">Student ID: <span class="heading">222599856</span> </p>
+                        <p class="normal-text">The webpage introduces marvel characters. This page is designed using materialize CSS components</p>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row my5">
+                <div class="col s6 image-body">
+                    <img src="images/marvel1.jpg" class=" main-image materialboxed" alt="marvel">
+                </div>
+                
+                <div class="col s6 welcome">
+                    <div class="">
+                        <p class="f16 m0">Welcome to</p>
+                        <h4 class="heading m0 bottom-line">Marvel World</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my5" id="card-section">
+                <h4 class="heading bottom-line m0 my5">Marvel superheroes</h4>
+                <div class="col s4 center-align">
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/ironman.jpeg"></img>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator">Iron Man<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title title-text">Iron Man<i class="material-icons right">close</i></span>
+                            <p class="card-text left-align">Iron Man is a Marvel Comics superhero created by Stan Lee. His real name is Tony Stark, a wealthy inventor who creates a powered suit of armor to become a superhero.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 center-align">
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/captain_america.webp"></img>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator">Captain America<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title title-text">Captain America<i class="material-icons right">close</i></span>
+                            <p class="card-text  left-align">Captain America is a Marvel Comics superhero created by Joe Simon and Jack Kirby. His real name is Steve Rogers, a World War II soldier who is transformed into a super-soldier to fight for the Allies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 center-align">
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/thor.jpeg"></img>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator">Thor<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title title-text">Thor<i class="material-icons right">close</i></span>
+                            <p class="card-text left-align">Thor is a Marvel Comics superhero based on the Norse god of the same name. He was created by Stan Lee, Larry Lieber, and Jack Kirby. Thor possesses superhuman strength and wields the enchanted hammer Mjolnir, which grants him control over thunder and lightning.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my5">
+            <div class="col s12 center-align">
+                <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1">
+                    <i class="material-icons left">feedback</i>
+                    Give your Feedback
+                </a>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="modal1" class="modal modal-fixed-footer bg-modal">
+            <div class="row modal-content">
+                <h5 class="heading center-align">Give your valuable feedback</h5>
+                <p class="normal-text center-align">Hello, How would you like this amazing webpage?</p>
+                <hr>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input place="Placeholder" id="first_name" type="text" class="validate heading"></input>
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate heading">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="email" type="email" class="validate heading">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="rate" type="number" class="validate heading" max="10" min="0">
+                            <label for="rate">Rating (0-10)</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 bg-modal">
+                            <select class="validate heading bg-modal" id="like">
+                              <option value="" disabled selected>Choose your option</option>
+                              <option value="Iron Man">Iron Man</option>
+                              <option value="Captain America">Captain America</option>
+                              <option value="Thor">Thor</option>
+                              <option value="Black Widow">Black Widow</option>
+                              <option value="Hulk">Hulk</option>
+                              <option value="Black Panther">Black Panther</option>
+                              <option value="Spider-Man">Spider-Man</option>
+                              <option value="Doctor Strange">Doctor Strange</option>
+                              <option value="Ant-Man">Ant-Man</option>
+                            </select>
+                            <label for="like">Which character you most like?</label>
+                          </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 center-align">
+                            <a class="waves-effect waves-light btn click-me-button" id="formSubmit">submit</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="image-tip-container">
+            <p class="image-tip">Images provided by peakpx, wallpapercrave, wallpaperaccess, pinterest, wallpapersmug under free to use.</p>
+          </div>
+          
+    </main>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

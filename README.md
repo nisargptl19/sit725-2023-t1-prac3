@@ -1,7 +1,7 @@
 # sit725-2023-t1-prac3
  SIT725 Practical 3 : The code demonstrates designing of express and node webpage using materialize CSS.
 
-#What the webpage is about
+# What the webpage is about
 The webpage name is marvelmania, which has information about prominent marvel characters. The page is designed using HTML, CSS and materialize CSS to add effects such as animation, zoom etc. It also includes feedback button about your preference which returns response in browser console as this is for demonstration purpose only. 
 ## Effects used:
 When clicking main image, it zooms in the centre of the window
